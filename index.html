@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: pink;
+            color: black;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin-top: 50px;
+            animation: moveText 2s infinite alternate;
+        }
+        p {
+            font-size: 1.5em;
+            animation: moveText 2s infinite alternate-reverse;
+        }
+        @keyframes moveText {
+            from {transform: translateX(-20px);}
+            to {transform: translateX(20px);}
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <p>Hello world</p>
+    <img src="flowers.webp" alt="Flowers">
+</body>
+</html>
+
